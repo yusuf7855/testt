@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const App = () => {
     // Spotify API configuration - BURAYA KENDİ CLIENT ID'NİZİ YAZIN!
     const CLIENT_ID = '58eafbf4fba14860a823cbd2691c0127';
-    const REDIRECT_URI = 'http://192.168.1.7:5173';
+    const REDIRECT_URI = 'https://testt-liart-zeta.vercel.app';
     const SCOPES = 'playlist-modify-public playlist-modify-private user-read-private';
 
     // State
